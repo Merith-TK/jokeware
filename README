@@ -1,0 +1,7 @@
+This is my joke malware project
+
+how it is inteded to function
+    1) run init.exe
+    2) init.exe downloads/extracts runtime.exe to `shell:startup` on 
+    the host PC,
+    3) init.exe runs runtime.exe
