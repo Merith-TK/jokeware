@@ -1,2 +1,4 @@
 github.com/gen2brain/dlgs v0.0.0-20200211102745-b9c2664df42f h1:Ub7Uppt+f4Gnu0zwy0sGetNFtkkDgwcirKNndYIMLM0=
 github.com/gen2brain/dlgs v0.0.0-20200211102745-b9c2664df42f/go.mod h1:/eFcjDXaU2THSOOqLxOPETIbHETnamk8FA/hMjhg/gU=
+github.com/gopherjs/gopherjs v0.0.0-20200217142428-fce0ec30dd00 h1:l5lAOZEym3oK3SQ2HBHWsJUfbNBiTXJDeW2QDxw9AQ0=
+github.com/gopherjs/gopherjs v0.0.0-20200217142428-fce0ec30dd00/go.mod h1:wJfORRmW1u3UXTncJ5qlYoELFm8eSnnEO6hX4iZ3EWY=
