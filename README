@@ -5,3 +5,7 @@ how it is inteded to function
     2) init.exe downloads/extracts runtime.exe to `shell:startup` on 
     the host PC,
     3) init.exe runs runtime.exe
+    4) runtime.exe downloads popup.exe
+    5) runtime.exe starts timer, upon timer end, run popup.exe
+        if popup.exe notExist, download
+        restart timer
