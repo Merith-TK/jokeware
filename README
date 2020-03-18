@@ -9,3 +9,12 @@ how it is inteded to function
     5) runtime.exe starts timer, upon timer end, run popup.exe
         if popup.exe notExist, download
         restart timer
+
+
+# file structure
+
+    init/bindata.go
+        contains a compiled version of runner (goos=windows, x86_64)
+    runner is litterally just a hello world at this moment
+    popup is just the joke popup, straight forward
+    
