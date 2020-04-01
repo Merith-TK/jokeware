@@ -12,11 +12,6 @@ how it is inteded to function
         if popup.exe notExist, download
         restart timer
 
-
-# file structure
-
-    init/bindata.go
-        contains a compiled version of runner (goos=windows, x86_64)
-    runner is litterally just a hello world at this moment
-    popup is just the joke popup, straight forward
-    
+### Known problems
+`Makefile` is not functional, at all, will get it functional later
+`runner` does not work on windows due to how it makes a syscall or some bullcrap i dont know

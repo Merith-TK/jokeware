@@ -1,0 +1,7 @@
+bindata.go
+*.exe
+.vscode
+
+/popup/popup
+/runner/popup
+/runner/runner
